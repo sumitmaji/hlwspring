@@ -12,6 +12,11 @@ public class HelloWorldController {
 		return "Hello World";
 	}
 
+	@GetMapping(path = "/healthz")
+	public String healthz() {
+		return "Up";
+	}
+
 	@GetMapping(path = "/hello-world-bean")
 	public HelloWorldBean helloWorldBean() {
 		// throw new RuntimeException("Some Error has Happened! Contact Support at
