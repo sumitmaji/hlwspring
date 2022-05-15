@@ -11,4 +11,4 @@ VERSION=1.0
 CONTEXT=hlwspring
 APP_SRC_CODE=src
 BUILD_TYPE=SPRING
-
+MAIN_CLASS=com.sum.rest.webservices.restfulwebservices.RestfulWebServicesApplication
